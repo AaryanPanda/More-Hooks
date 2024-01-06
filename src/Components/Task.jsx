@@ -84,7 +84,7 @@ const TaskList = () => {
             Scroll to Top
           </button>
         ) : (
-          <p id="init-msg">No Items in the Task !</p>
+          <p id="init-msg">No Item in the Task !</p>
         )}
       </div>
     </div>
