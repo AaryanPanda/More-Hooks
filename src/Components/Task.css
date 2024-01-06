@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-holder{
+    margin: 100px 0 60px 0 ;
+    height: 50px;
+    width: 400px;
+}
+
+#input-holder input{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    background-color: rgb(250, 250, 250);
+    outline: none;
+    border: 2px solid rgb(208, 208, 208);
+    box-shadow: 0px 2px 3px rgb(188, 188, 188);
+    padding: 8px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#input-holder input:focus{
+    outline: 2px solid rgb(208, 208, 208);
+    border: none;
+    box-shadow: 0px 3px 4px rgb(111, 111, 111);
+}
+
+#input-holder input::placeholder{
+    color: rgb(160, 160, 160);
+}
+
+#init-msg{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+#scroll-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgb(255, 192, 192);
+    font-size: 18px;
+    color: rgb(251, 76, 76);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px rgb(255, 128, 128);
+}
+
+#scroll-btn:hover{
+    scale: 1.05;
+}
+
+#scroll-btn:active{
+    background-color: rgb(255, 68, 68);
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(255, 128, 128);
+}
+
+#text {
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: rgb(233, 241, 255);
+    padding: 15px 30px;
+    border-radius: 4px;
+    width: 500px;
+}
+
+#flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex p {
+    overflow-wrap: break-word;
+}
+
+#toggle {
+    padding: 6px 12px;
+    margin-left: 50px;
+    font-size: 16px;
+    background-color: white;
+    border: none; 
+    border: 2px solid rgb(201, 201, 201);   
+    border-radius: 5px;
+    color: rgb(99, 99, 99);
+    box-shadow: 0 2px 3px gray;
+    cursor: pointer;
+}
+
+#toggle:hover, #toggle-duo:hover{
+    scale: 1.05;
+}
+
+#toggle:active, #toggle-duo:active{
+    box-shadow: none;
+}
+
+#toggle-duo {
+    padding: 6px 12px;
+    margin-left: 50px;
+    font-size: 16px;
+    background-color: rgb(160, 160, 160);
+    border: none; 
+    border: 2px solid rgb(244, 244, 244);   
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 2px gray;
+    cursor: pointer;
+}
+
+#flex-dub{
+    color: rgb(113, 113, 113);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
